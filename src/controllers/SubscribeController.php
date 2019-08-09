@@ -52,6 +52,9 @@ class SubscribeController extends Controller
         $request = Craft::$app->getRequest();
         $settings = $plugin->getSettings();
         $email = $request->getParam('email');
+        $firstName = $request->getParam('first_name');
+        $lastName = $request->getParam('last_name');
+        $companyName = $request->getParam('company_name');
         $listID = $request->getParam('listid', $settings->list); 
         $redirect = $request->getParam('redirect', '');
         $plugin = Plugin::getInstance();
@@ -63,7 +66,7 @@ class SubscribeController extends Controller
             ];
         }
 
-        $result = $plugin->constantContactService->subscribe($email, $listID);
+        $result = $plugin->constantContactService->subscribe($email, $listID, $firstName, $lastName,$companyName);
 
         if ($request->getAcceptsJson()) {
             return $this->asJson($result);
