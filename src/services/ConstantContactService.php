@@ -4,16 +4,16 @@
  *
  * Basic Contact Contact signup form
  *
- * @link      https://madebyraygun.com
+ * @link      https://matinshaikh.com
  * @copyright Copyright (c) 2018 Dalton Rooney
  */
 
-namespace madebyraygun\constantcontact\services;
+namespace matinshaikh\constantcontact\services;
 
 use Craft;
 use craft\base\Component;
-use madebyraygun\constantcontact\ConstantContact as Plugin;
-use madebyraygun\constantcontact\lib\ConstantContactClient as Client;
+use matinshaikh\constantcontact\ConstantContact as Plugin;
+use matinshaikh\constantcontact\lib\ConstantContactClient as Client;
 
 /**
  * ConstantContactService Service

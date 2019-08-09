@@ -1,5 +1,5 @@
 <?php 
-namespace madebyraygun\constantcontact\models;
+namespace matinshaikh\constantcontact\models;
 
 use craft\base\Model;
 

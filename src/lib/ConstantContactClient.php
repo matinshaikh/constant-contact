@@ -2,7 +2,7 @@
 
 /* Forked from https://github.com/classy-org/constantcontact-php-client */
 
-namespace madebyraygun\constantcontact\lib;
+namespace matinshaikh\constantcontact\lib;
 
 use Psr\Http\Message\ResponseInterface;
 

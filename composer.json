@@ -1,5 +1,5 @@
 {
-    "name": "madebyraygun/constant-contact",
+    "name": "matinshaikh/constant-contact",
     "description": "Basic Contact Contact integration for Craft CMS",
     "type": "craft-plugin",
     "version": "0.1.2",
@@ -11,14 +11,14 @@
         "constant contact"
     ],
     "support": {
-        "docs": "https://github.com/madebyraygun/constant-contact/blob/master/README.md",
-        "issues": "https://github.com/madebyraygun/constant-contact/issues"
+        "docs": "https://github.com/matinshaikh/constant-contact/blob/master/README.md",
+        "issues": "https://github.com/matinshaikh/constant-contact/issues"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Dalton Rooney",
-            "homepage": "https://madebyraygun.com"
+            "homepage": "https://matinshaikh.com"
         }
     ],
     "require": {
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-          "madebyraygun\\constantcontact\\": "src/"
+          "matinshaikh\\constantcontact\\": "src/"
         }
     },
     "extra": {
@@ -35,10 +35,10 @@
         "handle": "constant-contact",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/madebyraygun/constant-contact/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/matinshaikh/constant-contact/master/CHANGELOG.md",
         "components": {
-            "constantContactService": "madebyraygun\\constantcontact\\services\\ConstantContactService"
+            "constantContactService": "matinshaikh\\constantcontact\\services\\ConstantContactService"
         },
-        "class": "madebyraygun\\constantcontact\\ConstantContact"
+        "class": "matinshaikh\\constantcontact\\ConstantContact"
     }
 }
